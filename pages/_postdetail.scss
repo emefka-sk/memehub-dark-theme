@@ -1,0 +1,20 @@
+// farba nadpisov Podobné príspevky a Pridať komentár
+div.post h4 {
+  color: $text-color-white;
+}
+
+//Farba administracie
+.postadmincontent {
+  background-color: $backgorund-color-lighter-1;
+
+  select {
+    background-color: $backgorund-color-lighter-2;
+    border-color: $backgorund-color-lighter-3;
+  }
+}
+
+//Farba pola na pridavanie tagov
+#post-add-tag {
+  background-color: $backgorund-color-lighter-2;
+  border-color: $backgorund-color-lighter-3;
+}

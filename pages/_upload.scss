@@ -1,0 +1,61 @@
+div.uploadform {
+  //Farba pozadia
+  background-color: $backgorund-color-lighter-2;
+
+  //farby textov
+  h1 {
+    color: $text-color-white;
+  }
+
+  //Farba strednej casi
+  div#droparea {
+    background-color: $backgorund-color-lighter-1;
+
+    //farba pri chybe
+    &.error {
+      background-color: #342E2E;
+    }
+    //farba nadpisu
+    .title, .try {
+      color: $text-color-white-lighter;
+    }
+    //farba alebo
+    .alebo {
+      color: $text-color-white-darker;
+    }
+    //farba popisu
+    .desc {
+      color: $text-color-white;
+    }
+  }
+  //Farba formu pri vyplnovani informacii o poste
+  div.postform {
+    background-color: $backgorund-color-lighter-1;
+    border-color: $backgorund-color-lighter-3;
+    color: $text-color-white;
+
+    #mainform {
+      //Farba nadpisov poli
+      label {
+        color: $text-color-white-darker;
+      }
+      //Farba vsetkych inputov okrem tlacitka submit
+      input:not([type="submit"]), select, .bootstrap-tagsinput {
+        background-color: $backgorund-color-lighter-3;
+        border-color: $backgorund-color-lighter-2;
+        color: $text-color-white;
+      }
+      //Farba textu pod tagmi
+      .tagsdesc {
+        color: $text-color-white-darker;
+      }
+    }
+
+  }
+  //Farba nadpisu na stranke ktora sa zobrazi po pridani postu
+  div.postadded {
+    .title {
+      color: $text-color-white;
+    }
+  }
+}

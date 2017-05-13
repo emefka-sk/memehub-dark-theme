@@ -1,0 +1,26 @@
+.navbar {
+  //Farba pozadia a textu pre zoznam kategorii
+  &.navbar-categories { //todo: strasne srackovo to vyzera
+    background-color: #505050;
+    div {
+      border-bottom-color: $text-color-white-lighter;
+      a {
+        color: $text-color-white-lighter;
+      }
+    }
+  }
+  //Farba search baru
+  &.navbar-search {
+    background-color: #505050;
+    input {
+      background-color: $backgorund-color-lighter-1;
+      border-color: $backgorund-color-lighter-2;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+}
+
+

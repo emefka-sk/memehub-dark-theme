@@ -1,0 +1,19 @@
+.notifications {
+  div.feedDelimiter + div { //Todo
+    //Farba pozadia
+    div {
+      background-color: $backgorund-color-lighter-2 !important;
+
+      //Farba pozadia datumu a farba textu
+      &.date-separator {
+        background-color: $backgorund-color-lighter-1 !important;
+        color: $text-color-white;
+        border-color: $backgorund-color-lighter-3 !important;
+      }
+      &.item {
+        border-color: $backgorund-color-lighter-3 !important;
+      }
+    }
+
+  }
+}

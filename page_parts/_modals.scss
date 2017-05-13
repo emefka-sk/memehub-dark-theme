@@ -1,0 +1,19 @@
+//farba a pozadie vsetkych moznych elemenou ktore sa zobrazuju v modal oknach
+div.overlay div.body {
+  div.content.feedback, .content.loginRequired, div.content  {
+    background-color: $backgorund-color-lighter-2 !important;
+    color: $text-color-white;
+
+    label {
+      color: $text-color-white-darker;
+    }
+    .text {
+      color: $text-color-white;
+    }
+    input, textarea, select, input[type="text"], input[type="email"] {
+      background-color: $backgorund-color-lighter-1;
+      border-color: $backgorund-color-lighter-3;
+      color: $text-color-white;
+    }
+  }
+}

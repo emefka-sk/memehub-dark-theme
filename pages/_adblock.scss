@@ -1,0 +1,20 @@
+div.userform {
+  //Pozadie boxu s textom a farba textu
+  background-color: $backgorund-color-lighter-2;
+  color: $text-color-white;
+
+  .feedDelimiter {
+    background-color: $text-color-white;
+  }
+
+  h2 {
+    color: white;
+  }
+
+  //Odstranenie nezmyselneho pozadia pod nadpisom a farba nadpisu
+  h1 {
+    background: none;
+    color: $text-color-white;
+  }
+}
+

@@ -1,0 +1,126 @@
+@import "variables/colors";
+
+// Pozadie stranky
+body {
+  background-color: $backgorund-color-primary;
+  color: $text-color-white;
+}
+
+//Farba upozornenia ze stranka pouzica cookies
+.cc_container {
+  background: $backgorund-color-lighter-1;
+  color: $text-color-white;
+  border-color: $backgorund-color-lighter-2;
+}
+
+//farba pre box o tom ze sa nezobrazila reklama
+#ad-sidebar1, .emefka-ad.visible-lg.visible-md,
+.emefka-ad.hidden-xs, .rightbox .emefka-ad,
+#ad-grid-responsive { //treba dorobit podporu pre mobily
+  + div {
+    color: rgb(210, 161, 161) !important;
+    border: 1px solid rgb(121, 23, 23) !important;
+    background: rgb(86, 17, 17) !important;
+  }
+}
+
+//Farba tlacidla pre Feedback
+.feedback-fixed {
+  background-color: $backgorund-color-lighter-1;
+  color: $text-color-white;
+  border-color: $backgorund-color-lighter-2;
+}
+
+//Farba danger alertou
+.alert-danger {
+  background-color: #6F4848;
+  border-color: #4A1414;
+  color: #E08785;
+}
+
+/*================================*/
+/*------------FEED----------------*/
+/*================================*/
+@import "pages/feedPages";
+
+/*================================*/
+/*--------POST-DETAIL-------------*/
+/*================================*/
+@import "pages/postdetail";
+
+/*================================*/
+/*---------HALL-OF-FAME-----------*/
+/*================================*/
+@import "pages/hallOfFame";
+
+/*================================*/
+/*-----------ADBLOCK--------------*/
+/*================================*/
+@import "pages/adblock";
+
+/*================================*/
+/*------------USERS---------------*/
+/*================================*/
+@import "pages/users";
+
+/*================================*/
+/*-----------PROFILE--------------*/
+/*================================*/
+@import "pages/profile";
+
+/*================================*/
+/*---------NOTIFICATIONS----------*/
+/*================================*/
+@import "pages/notifications";
+
+/*================================*/
+/*-----------MESSAGES-------------*/
+/*================================*/
+@import "pages/messages";
+
+/*================================*/
+/*----------UPLOAD----------------*/
+/*================================*/
+@import "pages/upload";
+
+/*================================*/
+/*-----LOGIN-AND-REGISTRATION-----*/
+/*================================*/
+@import "pages/loginAndRegistration";
+
+/*================================*/
+/*---------MEME-BUILDER-----------*/
+/*================================*/
+@import "pages/memeBuilder";
+
+/*================================*/
+/*-----------COMENTS--------------*/
+/*================================*/
+@import "page_parts/comments";
+
+/*================================*/
+/*------------POST----------------*/
+/*================================*/
+@import "page_parts/post";
+
+/*================================*/
+/*----------SIDEBAR---------------*/
+/*================================*/
+@import "page_parts/sidebar";
+
+/*================================*/
+/*--------PROFILE-HOVER-----------*/
+/*================================*/
+@import "page_parts/profileHover";
+
+/*================================*/
+/*----------NAVIGATION------------*/
+/*================================*/
+@import "page_parts/navigation";
+
+/*================================*/
+/*------------MODALS--------------*/
+/*================================*/
+@import "page_parts/modals";
+
+

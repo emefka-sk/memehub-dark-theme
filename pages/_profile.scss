@@ -1,0 +1,121 @@
+.profile {
+  .leftsidebar {
+    //Pozadie a farba textu
+    background-color: $backgorund-color-lighter-2;
+    color: $text-color-white;
+
+    //farba klikatelnych textov a nadpisov
+    .clickable-text, h2 {
+      color: $text-color-white;
+    }
+
+    //Farba kruzku XP
+    #circular-pb {
+      svg {
+        path:first-of-type {
+          stroke: $backgorund-color-lighter-1 !important;
+        }
+      }
+    }
+
+    //farba horizontalnych ciar
+    hr {
+      border-color: $backgorund-color-lighter-3;
+    }
+
+    //farba tlacidla na zmenenie profilovky
+    .profile-pic .btn.btn-default.change {
+      background-color: $backgorund-color-lighter-1;
+      border-color: $backgorund-color-lighter-3;
+      color: $text-color-white;
+    }
+
+    //Farba online statusu
+    > span:nth-last-of-type(1) {
+      background-color: $backgorund-color-lighter-1 !important;
+      border-color: $backgorund-color-lighter-3 !important;
+      color: $text-color-white !important;
+    }
+
+  }
+  .details {
+    //Oramovanie kariet
+    #tabs {
+      border-bottom: 1px solid $backgorund-color-lighter-3 !important;
+      li a {
+        border-color: $backgorund-color-lighter-3 !important;
+      }
+    }
+    //Pozadie a farba textu
+    background-color: $backgorund-color-lighter-2;
+    color: $text-color-white;
+    //Farba jednotilivych itemou
+    #aboutme, #stats {
+      .item {
+        color: $text-color-white-lighter;
+        border-bottom-color: $backgorund-color-lighter-3;
+        b {
+          color: $text-color-white;
+        }
+      }
+    }
+    //farba pozadia atextu + fix borderu pre spravne napojenie hore pre Upozornenia
+    #warns {
+      pre {
+        background-color: $backgorund-color-lighter-1;
+        color: $text-color-white;
+        border-color: $backgorund-color-lighter-3;
+        border-top: none;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+      }
+    }
+    //farba prechodu pre zchovane achievmenty
+    .blocker {
+      background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, $backgorund-color-lighter-2 85%) !important;
+    }
+    //Farba komentarov v sekcii Prispevky
+    #comments {
+      .row {
+        background-color: $backgorund-color-lighter-1 !important;
+        color: $text-color-white;
+        border-color: $backgorund-color-lighter-1;
+
+        h4 {
+          color: $text-color-white-lighter;
+        }
+      }
+    }
+    //farba videi v sekcii Prispevky
+    #videos {
+      //TODO: Tieto videa maju debilne selektori EDIT: Videa zrusene
+    }
+
+  }
+  .questions-panel {
+    //Farba textu
+    .details, & h2 {
+      color: $text-color-white;
+
+      //farba horizontalnych ciar
+      hr {
+        background-color: $backgorund-color-lighter-3;
+      }
+
+      //Farba pola na otazky a tlacidla spytat sa
+      div.question-ask {
+        input {
+          background-color: $backgorund-color-lighter-1;
+          border-color: $backgorund-color-lighter-3;
+          color: $text-color-white;
+        }
+      }
+      div.question, div.question-reply {
+        p {
+          background-color: $backgorund-color-lighter-3 !important;
+          border-color: $backgorund-color-lighter-3;
+        }
+      }
+    }
+  }
+}

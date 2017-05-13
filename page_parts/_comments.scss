@@ -1,0 +1,67 @@
+//pozadie komentarov
+div.post .comments .comment {
+  background-color: $backgorund-color-lighter-1;
+  border-color: $backgorund-color-lighter-2;
+}
+
+//farba mena autora komentaru
+div.post .comments .cnf .top .name {
+  color: $text-color-white
+}
+
+//farba tlacidla zbrazit dalsie komentare
+div.post .comments .more a {
+  background-color: $backgorund-color-lighter-1;
+  color: $text-color-white;
+  border-color: $backgorund-color-lighter-2;
+}
+
+div.post .comments .more a:hover {
+  background-color: $backgorund-color-lighter-3;
+}
+
+//farba pola na pridanei komentaru
+div.post textarea {
+  background-color: $backgorund-color-lighter-3;
+  color: $text-color-white;
+  border-color: $backgorund-color-lighter-1;
+}
+
+div.post textarea::placeholder {
+  color: $backgorund-color-primary;
+}
+
+//farba tlacidla na pridanie komentaru
+div.post .addcomment input[type="submit"] {
+  color: $backgorund-color-primary;
+}
+
+//Pozadie tlacidiel reagovat a hodnotit komentar
+div.post .comments .opt {
+  .reply, .like {
+    background-color: $backgorund-color-lighter-2;
+    border-color: $backgorund-color-lighter-3;
+    &:hover {
+      background-color: $backgorund-color-lighter-3;
+    }
+  }
+}
+
+//farba tlacidla zobrazit nove komentare
+.more-comments a {
+  color: $text-color-white;
+  background-color: #304f77;
+}
+
+//Farba tlacidiel na pridanei obrazku / gifu do komentaru
+
+div.post .addcomment .commentOptions > a {
+  background-color: $backgorund-color-lighter-1;
+  border-color: $backgorund-color-lighter-2;
+  color: $text-color-white;
+  &:hover {
+    background-color: $backgorund-color-lighter-3;
+  }
+}
+
+//Todo: Po kliknuti na zobrazit nove komentare ma novy komentar inline nastavene pozadie a nema ziadnu classu podla ktorej by sa dal selektnut
