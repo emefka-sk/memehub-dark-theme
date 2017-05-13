@@ -1,0 +1,58 @@
+.list-content {
+  //Pozadie a farba
+  background-color: $backgorund-color-lighter-1;
+  border-color: $backgorund-color-lighter-2;
+  color: $text-color-white;
+
+  form {
+    select, input {
+      background-color: $backgorund-color-lighter-2;
+      border-color: $backgorund-color-lighter-3;
+    }
+  }
+  //Farba HR
+  hr {
+    border-color: $backgorund-color-lighter-3;
+  }
+  //Pozadie zoznamu uzivatelov a ofarbenie prvych troch
+  .users {
+    .user {
+      //Pozadie pod jednotilivimi pouzivatelmi
+      background-color: $backgorund-color-lighter-1;
+      border-color: $backgorund-color-lighter-2;
+      //Farba poradoveho cisla
+      .position {
+        background-color: $backgorund-color-lighter-3;
+        color: $text-color-white;
+        border-color: $backgorund-color-lighter-2;
+      }
+      //Ine farby pre prvych troch
+      &:nth-child(1) {
+        background-color: #a56e24;
+        border-bottom-color: #a56e24;
+        a {
+          color: #F5DDB9;
+        }
+
+      }
+      &:nth-child(2) {
+        background-color: #6d6d6d;
+        border-color: #6d6d6d;
+        a {
+          color: #D7D7D7;
+        }
+      }
+      &:nth-child(3) {
+        background-color: #4c3e30;;
+        border-bottom-color: #4c3e30;
+        a {
+          color: #E2D4C7;
+        }
+      }
+      .pb-text span {
+        //color: $text-color-white; TODO: Treba vymysliet nejaku dobru farbu
+      }
+    }
+  }
+
+}

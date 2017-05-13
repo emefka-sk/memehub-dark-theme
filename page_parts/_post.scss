@@ -1,0 +1,24 @@
+//Farba nadpisov postu
+div.post h2 a {
+  color: $text-color-white;
+}
+//Pozadie tagov
+div.post .tags a {
+  background-color: $backgorund-color-lighter-2;
+  border-color: $backgorund-color-lighter-1;
+}
+
+//Pozadie popisu postu
+div.post .box {
+  background-color: $backgorund-color-lighter-2;
+}
+
+//farba mena autora postu
+div.post .box > .pull-left .user .name {
+  color: $text-color-white;
+}
+
+//Oramovanie pocitadla a komentov clapov ktore sa zobrazuje len pri zobrazeni postov v troch stlpcoch
+div.post .box > .outer-share > .share > a > .cnt {
+  border-color: $backgorund-color-lighter-2;
+}

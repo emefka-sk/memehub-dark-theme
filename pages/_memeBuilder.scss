@@ -1,0 +1,29 @@
+.quickmeme-category, .quickmeme-builder {
+  > div:last-of-type {
+    //Farba pozadia a textu
+    background-color: $backgorund-color-lighter-2 !important;
+    color: $text-color-white;
+
+    //Farba textov v nastaveni builderu
+    .mm-opts {
+      color: $text-color-white;
+    }
+
+    //Farba poli v nastaveniach builderu
+    select, .text-wrap .mm-text {
+      background-color: $backgorund-color-lighter-1 !important;
+      border-color: $backgorund-color-lighter-3 !important;
+    }
+    //farba tlacidla Pridať ďalší text
+    .mm-add-text {
+      color: $text-color-white !important;
+      background-color: $backgorund-color-lighter-3 !important;
+      border-color: $backgorund-color-lighter-1 !important;
+    }
+    //Odstranenie pozadia z nastaveni builderu aby bolo vidno to pozadie pod tym
+    .ibox {
+      background-color: transparent;
+    }
+  }
+}
+

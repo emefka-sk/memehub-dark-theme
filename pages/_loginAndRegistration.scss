@@ -1,0 +1,23 @@
+.userform.t-center {
+  //farba prvej horizontalnej ciari
+  .feedDelimiter {
+    background-color: $backgorund-color-lighter-3;
+  }
+  form {
+    //Farba druje horizontalne ciari
+    div:nth-last-of-type(3) {
+      border-color: $backgorund-color-lighter-3 !important;
+    }
+    //farba posledneho tlacidla
+    div:last-of-type a {
+      background-color: $backgorund-color-lighter-1;
+      color: $text-color-white-darker;
+    }
+
+    //farba inputov 
+    input[type="text"], input[type="password"] {
+      background-color: $backgorund-color-lighter-1;
+      border-color: $backgorund-color-lighter-3;
+    }
+  }
+}

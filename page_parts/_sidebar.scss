@@ -1,0 +1,93 @@
+//Pozadie prispevku dna a mesiaca
+#home.tab-pane, #menu2.tab-pane {
+  background-color: $backgorund-color-lighter-1 !important
+}
+
+//Pozadie a farba textu navigacie prispevku dna a mesaica
+ul.nav.nav-tabs li > a {
+  background: $backgorund-color-lighter-2;
+  color: $text-color-white;
+}
+
+ul.nav.nav-tabs li > a:hover {
+  background: $backgorund-color-lighter-1 !important; //todo
+  color: $text-color-white;
+}
+
+ul.nav.nav-tabs li.active > a {
+  background-color: $backgorund-color-lighter-1 !important;
+  color: $text-color-white;
+}
+
+//Odstranenie nejakeho zbytocneho borderu
+.nav-tabs {
+  border-bottom: none;
+}
+
+//Farba nadpisov v sidebare
+div.rightbox label, div.rightbox label {
+  color: $text-color-white !important; /*todo*/
+}
+
+//Fix pre prekrivanie sa pri rebrickoch
+ul.nav.nav-tabs {
+  overflow: hidden;
+}
+
+//farba oramovania nahodneho prispevku
+.randomPost > div {
+  background-color: $backgorund-color-lighter-1 !important; //todo
+}
+
+//Farba odkazov na spodku sidebaru
+footer {
+  color: $backgorund-color-lighter-3;
+  border-top-color: $backgorund-color-lighter-3 !important; //todo
+}
+footer a {
+  color: $text-color-white;
+}
+
+//Farba pozadia v rebrickoch
+#xpcharts {
+  .user {
+    background-color: $backgorund-color-lighter-1;
+    border-color: $backgorund-color-lighter-2;
+    .position {
+      background-color: $backgorund-color-lighter-3;
+      color: $text-color-white;
+      border-color: $backgorund-color-lighter-1;
+    }
+    &:nth-child(1) {
+      background-color: #a56e24;
+      border-bottom-color: #a56e24;
+      a {
+        color: #F5DDB9;
+      }
+
+    }
+    &:nth-child(2) {
+      background-color: #6d6d6d;
+      border-color: #6d6d6d;
+      a {
+        color: #D7D7D7;
+      }
+    }
+    &:nth-child(3) {
+      background-color: #4c3e30;;
+      border-bottom-color: #4c3e30;
+      a {
+        color: #E2D4C7;
+      }
+    }
+  }
+}
+
+//Faba TOP Tagov
+.topTags a {
+  background-color: $backgorund-color-lighter-2;
+  border-color: $backgorund-color-lighter-1;
+}
+.random-post {
+  background-color: $backgorund-color-lighter-2 !important;
+}

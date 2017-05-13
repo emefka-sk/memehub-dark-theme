@@ -1,0 +1,67 @@
+div.leftbox > .messages {
+  .userlist {
+    //Farba pozadia
+    background-color: $backgorund-color-lighter-1 !important;
+
+    //Farba oramovani
+    border-color: $text-color-white-darker;
+
+    > div {
+      //Farba nadpisu
+      color: $text-color-white !important;
+
+      //Farba oramovani
+      border-color: $text-color-white-darker;
+    }
+
+    .user {
+      //Farba oramovani
+      border-color: $text-color-white-darker;
+
+      //Farba aktyvnej konverziacie alebo pri hoveri
+      &:hover, &.act {
+        background-color: $backgorund-color-lighter-3;
+        color: $text-color-white;
+      }
+    }
+  }
+  .message {
+    //Farba pozadia a textov
+    background-color: $backgorund-color-lighter-2;
+    color: $text-color-white;
+    .list.nano-content {
+
+      > div:not(.item) {
+        //farba nadpisu
+        color: $text-color-white-darker !important;
+
+        //Farba oramovani
+        border-color: $text-color-white-darker;
+      }
+
+      .item {
+        //farba textu sprav
+        .text {
+          color: $text-color-white;
+        }
+
+        //Farba casu
+        .time {
+          color: $text-color-white-darker;
+        }
+
+        //Farba podciarknutia sprav
+        hr {
+          border-color: $text-color-white-darker;
+        }
+      }
+    }
+    //Farba pola na zadavanie textu spravy
+    .textarea {
+      textarea {
+        background-color: $backgorund-color-lighter-1;
+        border-color: $backgorund-color-lighter-3;
+      }
+    }
+  }
+}

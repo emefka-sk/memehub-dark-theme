@@ -1,0 +1,11 @@
+//Farba vyhladavacieho boxu
+#halloffame-selector {
+  background-color: $backgorund-color-lighter-2;
+  border-color: $backgorund-color-lighter-1;
+  form {
+    select, input {
+      background-color: $backgorund-color-lighter-1;
+      border-color: $backgorund-color-lighter-3;
+    }
+  }
+}
