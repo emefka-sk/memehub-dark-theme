@@ -1,7 +1,7 @@
 .navbar {
   //Farba pozadia a textu pre zoznam kategorii
   &.navbar-categories { //todo: strasne srackovo to vyzera
-    background-color: #505050;
+    background-color: #46464d;
     div {
       border-bottom-color: $text-color-white-lighter;
       a {
@@ -11,7 +11,7 @@
   }
   //Farba search baru
   &.navbar-search {
-    background-color: #505050;
+    background-color: #46464d;
     input {
       background-color: $backgorund-color-lighter-1;
       border-color: $backgorund-color-lighter-2;

@@ -1,0 +1,18 @@
+.settings {
+  //farba pozadia
+  background-color: $backgorund-color-lighter-2;
+  //Farba textu
+  label,button,.btn-lg {
+    color: $text-color-white;
+  }
+  //Farba nadpisobv
+  h4 {
+    color: $text-color-white-lighter;
+  }
+  //Farba pozadia poli na zadavanie info
+  input:not([type="submit"]),select,button.btn-lg {
+    background-color: $backgorund-color-lighter-1;
+    border-color: $backgorund-color-lighter-3;
+  }
+
+}
