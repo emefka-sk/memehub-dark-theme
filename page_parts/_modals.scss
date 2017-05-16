@@ -16,4 +16,21 @@ div.overlay div.body {
       color: $text-color-white;
     }
   }
+  div.content.gifReacion {
+    // Odstrani pozadie ktore tam je kvoli inym modal oknam ale pri galerii gifov nema byt
+    background-color: transparent !important;
+
+    //farba pozdia pod obrazkami
+    .gifcontent {
+      background-color: $backgorund-color-lighter-2;
+    }
+    //farba pozadia pod zoznamom kategorii
+    .gifcats {
+      background-color: $backgorund-color-lighter-3;
+      //farba hoveru nad kategoriu
+      a:hover {
+        color: $text-color-white;
+      }
+    }
+  }
 }
